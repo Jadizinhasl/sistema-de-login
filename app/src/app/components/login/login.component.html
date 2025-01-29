@@ -1,0 +1,7 @@
+<h2>BEM VINDO</h2>
+<form (ngSubmit)="onSubmit()">
+  <input [(ngModel)]="usuario.email" name="email" placeholder="Email" required>
+  <input [(ngModel)]="usuario.senha" name="senha" type="password" placeholder="Senha" required>
+  <button type="submit">Acessar</button>
+</form>
+<button a routerLink="/cadastro">Cadastre-se</button>

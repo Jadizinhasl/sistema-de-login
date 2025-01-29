@@ -1,0 +1,8 @@
+<h2>CADASTRE-SE</h2>
+<form (ngSubmit)="onSubmit()">
+  <input [(ngModel)]="novoCadastro.nome" name="nome" placeholder="Nome de usuário" required>
+  <input [(ngModel)]="novoCadastro.email" name="email" placeholder="Email" required>
+  <input [(ngModel)]="novoCadastro.senha" name="senha" type="password" placeholder="Senha" required>
+  <button type="submit">Cadastrar</button>
+</form>
+<button routerLink="/login">Login</button>
