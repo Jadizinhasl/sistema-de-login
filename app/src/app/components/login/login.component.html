@@ -1,7 +1,10 @@
-<h2>BEM VINDO</h2>
-<form (ngSubmit)="onSubmit()">
-  <input [(ngModel)]="usuario.email" name="email" placeholder="Email" required>
-  <input [(ngModel)]="usuario.senha" name="senha" type="password" placeholder="Senha" required>
-  <button type="submit">Acessar</button>
-</form>
-<button a routerLink="/cadastro">Cadastre-se</button>
+<div class="conteudo">
+  <h2>BEM VINDO</h2>
+  <form (ngSubmit)="onSubmit()">
+    <input [(ngModel)]="usuario.email" name="email" placeholder="Digite seu e-mail" required>
+    <input [(ngModel)]="usuario.senha" name="senha" type="password" placeholder="Digite sua Senha" required>
+    <button class="acesso" type="submit">Acessar</button>
+  </form>
+  <p>---------------------------- ou ----------------------------</p>
+  <button class="cadastro" a routerLink="/cadastro">Cadastre-se</button>
+</div>

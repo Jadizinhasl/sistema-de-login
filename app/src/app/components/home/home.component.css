@@ -1,0 +1,33 @@
+.conteudo {
+  background-color: rgba(255, 255, 255, 0.13);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  width: 460px;
+  height: 780px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+
+button {
+  width: 100%;
+  margin-top: 80px;
+  padding: 0.75rem;
+  border-radius: 5px;
+  margin-top: 10rem;
+  font-size: 1rem;
+  border: 1px solid #000000;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #a996c9a9;
+}
