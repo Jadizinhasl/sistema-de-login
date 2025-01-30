@@ -14,8 +14,12 @@ export class CadastroComponent {
   constructor( private autenticacaoService: AutenticaoService, private router: Router) {}
 
   onSubmit(): void {
-    this.autenticacaoService.cadastro(this.novoCadastro);
-    alert('Cadastro realizado com sucesso!');
-    this.router.navigate(['/login']);
+    if (this.autenticacaoService.emailCadastrado(this.novoCadastro.email)) {
+      alert('Este email já está cadastrado.');
+    } else {
+      this.autenticacaoService.cadastro(this.novoCadastro);
+      alert('Cadastro realizado com sucesso!');
+      this.router.navigate(['/login']);
+    }
   }
 }

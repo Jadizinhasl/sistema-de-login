@@ -21,4 +21,11 @@ export class HomeComponent {
     this.autenticacaoService.logout();
     this.router.navigate(['/login']);
   }
+
+  excluirConta(): void {
+    if (confirm('Tem certeza que deseja excluir sua conta? Esta ação não pode ser desfeita.')) {
+      this.autenticacaoService.excluirConta();
+      this.router.navigate(['/login']);
+    }
+  }
 }
