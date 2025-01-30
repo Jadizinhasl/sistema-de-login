@@ -12,7 +12,6 @@ Este projeto é um **sistema de login e cadastro simples**, desenvolvido com Ang
 ## 🔧 Tecnologias/Links utilizadas
 
 - [Angular](https://angular.io/)
-- [GitHub Pages](https://pages.github.com/) (para hospedagem)
 - [Figma](https://www.figma.com/design/XKtXzTi1X5gqIT0Lkjlakv/Sistema-de-login?node-id=0-1&t=Inktgq62zSlLuMM6-1) (Eu mesma criei um modelo no Figma)
 
 ## 📦 Como executar o projeto
