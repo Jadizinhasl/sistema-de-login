@@ -23,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "baseHref": "/",
+            "baseHref": "/sistema-de-login/",
             "outputPath": "dist/app",
             "index": "src/index.html",
             "browser": "src/main.ts",
